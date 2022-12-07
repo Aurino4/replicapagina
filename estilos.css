@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(158, 146, 146);
+    margin-top: 0;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    width: 900px;
+    background-color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 30px;
+    align-items: flex-end;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h2{
+    color:white;
+
+}
+span{
+    color:rgb(89, 89, 226);
+}
+
+/* nav */
+
+nav a{
+    color:white;
+    border-right: 1px white solid;
+    margin-right:0px;
+    padding-right:20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(89, 89, 226);
+}
+.contenedor img{
+    width: 100px;
+}
+.grid{
+    display: grid;
+    width: 900px;
+    grid-template-columns: 50% 50%;
+    margin-left: 250px;
+    grid-column-gap: 20px;
+}
+
+.fotos_destinos{
+    width:450px;
+
+}
+.grid_fotos{
+    display:grid;
+    width:auto;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+}
+.grid_fotos img{
+    width:220px;
+}
+
+.titulo1 h2{
+    background-color:rgb(89, 89, 226); 
+    color:white;
+    font-style: italic;
+    padding:5px;
+}
+
+.titulo2 h2{
+   background-color: rgb(188, 59, 59);
+   font-style:italic;
+   color:white;
+   padding:5px;
+
+}
+.titulo1{
+    display: flex;
+}
+
+.timon{
+    width:50px;
+}
